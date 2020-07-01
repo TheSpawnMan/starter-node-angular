@@ -1,4 +1,5 @@
 echo "Installing 'node-cmd'"
+rm -rf node_modules
 npm install
 npm install node-cmd
 echo "Installing 'node-ssh'"
